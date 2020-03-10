@@ -1,0 +1,38 @@
+.grid {
+	grid-gap: 1em;
+	margin: 0 0 2em 0;
+
+}
+.grid div {
+	background-color:rgba(0,0,0,0.1);
+}
+
+.nice-image {
+	width: 100%;
+	height: auto;
+}
+
+.book {
+		margin-top: 2em;
+}
+.book h2 {
+		font-family: 'Cormorant Garamond', serif;
+		font-weight: 400;
+		font-size: 2em;
+}
+
+.book-nav {
+	text-align: center;
+}
+
+.book-nav img {
+	width: 50%;
+}
+
+.book-nav a {
+	background-color: transparent;
+}
+
+.book-credits {
+	margin-left: 1em;
+}
