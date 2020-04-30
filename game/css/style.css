@@ -1,12 +1,12 @@
 body {
-	background-color: #000;
+	background-color: #8aceee;
 	text-align: left;
 	margin: 0;
-	color: green;
+	color: black;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.6;
-	font-family: Helvetica, sans-serif;
+	font-family: Didot;
 	height: 100%;
 	position: relative;
 }
@@ -31,9 +31,27 @@ body {
 	background-color: #ffff;
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 600px;
-	height: 600px;
+	width: 700px;
+	height: 700px;
 	padding: 2em;
 	margin: 0 2em;
 
+}
+
+.left-arrow {
+	z-index: 2;
+	position: absolute;
+	padding: 20px;
+	background-color: #8aceee;
+	left: 30px
+	top 30px;
+}
+
+.right-arrow {
+	z-index: 3
+	position: absolute;
+	padding: 20px;
+	background-color: #8aceee;
+	left: 30px
+	top 30px;
 }
