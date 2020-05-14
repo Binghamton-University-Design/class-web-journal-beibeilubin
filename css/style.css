@@ -3,7 +3,7 @@
   --background-color: #FFFFFF;
   --link-color: #E2E3E3;
   --alt-link-color: #111;
-  --body-color: #00000;
+  --body-color: #000000;
   --light-grey: #A9AAAA;
   --lighter-grey: #C6C7C6;
   --lightest-grey: #E2E3E3;
@@ -17,8 +17,8 @@ body {
     background-color: var(--background-color);
     text-align: left;
     margin: 0;
-    color: #00000;
-    font-family: Didot;
+    color: #000000;
+    font-family: Helvetica, sans serif;
     font-size: 12px;
     line-height: 1.6;
     min-width: 320px;
@@ -66,7 +66,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  font-family: Didot;
+  font-family: Helvetica, sans serif;
 }
 h1 {
   font-size: 2.21em;
